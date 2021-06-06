@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+
+.cuerpo {
+    width: 100%;
+    height: 2123px;
+    background: rgba(241,241,242,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.rectangulo {
+    position: absolute;
+    width: 100%;
+    height: 192px;
+    left: 0px;
+    top: -6px;
+
+    background: #1995AD;
+}
+
+.rectanguloblanco {
+    position: absolute;
+    width: 1447px;
+    height: 796px;
+    left: -7px;
+    top: 690px;
+
+    background: #FFFCFC;
+}
+.texto1{
+    position: absolute;
+    width: 623px;
+    height: 335px;
+    left: 55px;
+    top: 263px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+.textologo{
+     position: absolute;
+     width: 350px;
+     height: 35px;
+     left: 54px;
+     top: 132px;
+
+     font-family: Roboto Slab;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 36px;
+     line-height: 47px;
+
+     color: #FFFFFF;
+
+ }
+
+.textoboton1{
+    position: absolute;
+    width: 286.8px;
+    height: 39.44px;
+    left: 122px;
+    top: 578px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.textoboton2{
+    position: absolute;
+    width: 286.8px;
+    height: 39.44px;
+    left: 433px;
+    top: 578px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.texto2{
+    position: absolute;
+    width: 747px;
+    height: 298px;
+    left: 669px;
+    top: 985px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.texto4{
+    position: absolute;
+    width: 765px;
+    height: 102px;
+    left: 326px;
+    top: 1544px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+
+.texto5 {
+    position: absolute;
+    width: 667px;
+    height: 121px;
+    left: 678px;
+    top: 804px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+.texto6{
+    position: absolute;
+    width: 747px;
+    height: 298px;
+    left: 357px;
+    top: 1746px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;}
+
+/* poligonos */
+
+.triangulo1{
+    position: absolute;
+    width: 48.86px;
+    height: 33.05px;
+    left: 282.44px;
+    top: 1467.7px;
+
+    background: #F1F1F2;
+}
+
+.triangulo2{
+    position: absolute;
+    width: 48.86px;
+    height: 33.05px;
+    left: 370.56px;
+    top: 1467.7px;
+
+    background: #F1F1F2;
+
+}
+
+.cuadrado1{
+    position: absolute;
+    width: 53.07px;
+    height: 56.26px;
+    left: 273.43px;
+    top: 1415.14px;
+    background: rgba(87, 86, 86, 0.6);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.cuadrado2{
+    position: absolute;
+    width: 53.07px;
+    height: 56.26px;
+    left: 379.57px;
+    top: 1415.14px;
+
+    background: rgba(87, 86, 86, 0.6);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.apple {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 362px;
+    top: 560px;
+
+    background: url(images/apple.png);
+}
+.android {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 50px;
+    top: 560px;
+
+    background: url(images/android-64x64.png);
+}
+
+.mockup{
+
+    position: absolute;
+    width: 397px;
+    height: 713.33px;
+    left: 128px;
+    top: 705px;
+
+    background: url(images/mockup.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.boton1{
+    position: absolute;
+    width: 280.8px;
+    height: 77px;
+    left: 37px;
+    top: 559px;
+
+    background: #A1D6E2;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.boton2{
+    position: absolute;
+    width: 280.8px;
+    height: 77px;
+    left: 348px;
+    top: 559px;
+
+    background: #FDFDFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.imagen {
+    position: absolute;
+    width: 678px;
+    height: 415px;
+    left: 721px;
+    top: 231px;
+
+    background: url(images/imagen.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+
+    position: absolute;
+    width: 126px;
+    height: 132px;
+    left: 71px;
+    top: 0px;
+
+    background: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: screen; /*preguntar*/
+}
